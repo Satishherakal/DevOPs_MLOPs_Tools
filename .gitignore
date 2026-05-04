@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+
+# Pytest
+.pytest_cache/
+
+# DVC
+.dvc/config.local
+/data/*.csv
+
+# MLflow
+mlruns/
+*.db
+
+# Models
+*.pkl
+*.model
+
+# IDEs
+.vscode/
+.idea/
